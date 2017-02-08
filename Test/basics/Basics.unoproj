@@ -1,0 +1,16 @@
+{
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+    "Fuse.BasicTheme"
+  ],
+  "Projects": [
+    "../../src/WhatAService.unoproj",
+  ],
+  "WhatAService": {
+    "PublishableKey": "pk_test_myactualkey"
+  },
+  "Includes": [
+    "*",
+  ]
+}

@@ -1,0 +1,9 @@
+[*.{uno,ux,unoproj,unosln,java}]
+insert_final_newline = true
+
+[*.{uno,ux,java}]
+indent_style = tab
+
+[*.unoproj]
+indent_style = space
+indent_size = 2

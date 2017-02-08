@@ -1,0 +1,24 @@
+<App Background="#2586EC">
+	<DockPanel>
+		<JavaScript File="MainView.js"/>
+		<StackPanel Dock="Top" Background="#2586EC">
+			<StatusBarBackground/>
+			<Fuse.iOS.StatusBarConfig Style="Light"/>
+		</StackPanel>
+		<BottomBarBackground Dock="Bottom" />
+
+		<StackPanel Width="90%" Height="90%" Padding="20">
+			<Rectangle Layer="Background" CornerRadius="10" Color="#fff"/>
+			<Text Value="Stripe Test" Alignment="Center" FontSize="35" TextColor="#2586EC"/>
+
+			<Basic.TextInput Width="100%" Value="{aaaThing}" Alignment="Center" PlaceholderText="AAA" PlaceholderColor="#bbb" />
+			<StackPanel Orientation="Horizontal">
+				<Basic.TextInput Width="100%" Value="{bbbThing}" Alignment="Center" PlaceholderText="BBB" PlaceholderColor="#bbb" />
+			</StackPanel>
+
+			<Basic.Button Text="Make World Shaking API Call" Clicked="{testService}" />
+
+			<TextView Value="{info}" Height="200" TextWrapping="Wrap"/>
+		</StackPanel>
+	</DockPanel>
+</App>

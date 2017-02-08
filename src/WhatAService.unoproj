@@ -1,0 +1,14 @@
+{
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+  ],
+  "Includes": [
+    "Core.uno",
+    "Helpers.uno",
+    "Foo.uno",
+    "Bar.uno",
+    "SuchAServiceRequest.uno",
+    "JS.uno"
+  ]
+}
